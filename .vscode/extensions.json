@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig", // EditorConfig
+    "SonarSource.sonarlint-vscode", // SonarLint
+    "aaron-bond.better-comments", // Better comments
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    "dbaeumer.vscode-eslint", // eslint plugin
+    "eamodio.gitlens", // GitLens
+    "esbenp.prettier-vscode", // prettier plugin
+    "dsznajder.es7-react-js-snippets", // React snippets
+    "gruntfuggly.todo-tree" // Todo Tree
+  ]
+}
