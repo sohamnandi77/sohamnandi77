@@ -4,11 +4,14 @@ import { Hero } from "@/components/hero";
 import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
 import { Work } from "@/components/work";
+import { Suspense } from "react";
 
 export default function HomePage() {
   return (
     <>
-      <Header />
+      <Suspense>
+        <Header />
+      </Suspense>
       <Hero />
       <Work />
       <Skills />
