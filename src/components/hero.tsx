@@ -34,7 +34,10 @@ export const Hero = () => {
             make every line count together! 💻✨
           </p>
           <div className="mt-4">
-            <Link href="#" target="_blank">
+            <Link
+              href="https://drive.google.com/file/d/1ZB09Na1bKzUuoj-EfFgBFueu8ypiwRbI/view?usp=sharing"
+              target="_blank"
+            >
               <div className="flex w-fit items-center space-x-2 rounded-full border border-solid border-[#08a97c4d] bg-[#08a97c1a] p-2 backdrop-blur-sm">
                 <PiReadCvLogoFill className="size-6 text-[#08a97c]" />
                 <span className="font-semibold">Resume</span>
