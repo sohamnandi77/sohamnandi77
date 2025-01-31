@@ -11,7 +11,7 @@ export const Skills = () => {
         <RevealFx translateY={2}>
           <div className="text-4xl font-bold">Technical Skills</div>
         </RevealFx>
-        <div className="mt-9 space-y-7 rounded-3xl border-2 border-[#3F3F3F] bg-[#151515]/50 px-8 py-11 backdrop-blur-lg">
+        <div className="mt-9 space-y-7 rounded-3xl border-2 border-[#3F3F3F] bg-[#151515]/50 px-3 py-5 backdrop-blur-lg md:px-8 md:py-11">
           {SKILLS.map(({ id, title, skills }, idx) => {
             return (
               <Fragment key={id}>
@@ -23,7 +23,7 @@ export const Skills = () => {
                 <RevealFx
                   delay={idx * 0.1}
                   translateY={2}
-                  className="mt-6 flex flex-wrap items-start gap-10"
+                  className="mt-6 flex flex-wrap items-start gap-6 md:gap-10"
                 >
                   {skills.map(({ name, url, height, width }) => {
                     return (

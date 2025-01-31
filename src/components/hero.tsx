@@ -33,10 +33,11 @@ export const Hero = () => {
           </RevealFx>
           <RevealFx delay={0.2} translateY={4}>
             <p className="mt-6 text-lg">
-              Every problem has a code, and I love finding the right one! With a
-              passion for crafting seamless user experiences, I blend clean code
-              and creativity to transform ideas into impactful products. Let’s
-              make every line count together!
+              <b>Every problem has a code, and I love finding the right one!</b>
+              <br />
+              With a passion for crafting seamless user experiences, I blend
+              clean code and creativity to transform ideas into impactful
+              products. Let’s make every line count together!
             </p>
           </RevealFx>
           <RevealFx delay={0.2} translateY={5}>
