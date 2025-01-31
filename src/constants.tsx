@@ -336,7 +336,6 @@ export const PROJECTS = [
       "Design by Nidhi: A personal portfolio website showcasing the work of designer",
     imageUrl:
       "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738162392/profile/projects/design-by-nidhi.png",
-    githubUrl: "https://github.com/sohamnandi77/design-by-nidhi",
     liveDemoUrl: "https://designbynidhi.com/",
   },
   {

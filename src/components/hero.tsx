@@ -12,7 +12,7 @@ export const Hero = () => {
     <section id="home" className="px-8 sm:px-16">
       <div className="grid content-center gap-8 lg:grid-cols-2">
         <div className="row-start-2 self-center lg:row-start-auto">
-          <RevealFx translateY={2}>
+          <RevealFx translateY={3}>
             <div className="space-x-2 text-xl">
               <span className="inline-block animate-wave">👋</span>
               <span className="text-md text-[#959595]">Hey,</span>
@@ -31,7 +31,7 @@ export const Hero = () => {
               ))}
             </div>
           </RevealFx>
-          <RevealFx delay={0.2} translateY={4}>
+          <RevealFx delay={0.2} translateY={3}>
             <p className="mt-6 text-lg">
               <b>Every problem has a code, and I love finding the right one!</b>
               <br />
@@ -40,7 +40,7 @@ export const Hero = () => {
               products. Let’s make every line count together!
             </p>
           </RevealFx>
-          <RevealFx delay={0.2} translateY={5}>
+          <RevealFx delay={0.2} translateY={3}>
             <div className="mt-4">
               <Link
                 href="https://drive.google.com/file/d/1ZB09Na1bKzUuoj-EfFgBFueu8ypiwRbI/view?usp=sharing"
@@ -67,7 +67,7 @@ export const Hero = () => {
           <RevealFx delay={0.2} translateY={3}>
             <div className="relative overflow-hidden rounded-full border-4 border-solid border-[#595959]">
               <Image
-                src="https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738159059/profile/others/profile-image.png"
+                src="https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738341898/profile/others/profile-image.jpg"
                 width={368}
                 height={368}
                 alt="Soham Nandi"
