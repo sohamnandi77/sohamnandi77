@@ -19,20 +19,20 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // async headers() {
-  //   return [
-  //     {
-  //       source: "/:all*(css|js|svg|jpg|png|webp|gif|jpeg|avif)",
-  //       locale: false,
-  //       headers: [
-  //         {
-  //           key: "Cache-Control",
-  //           value: "public, max-age=84600, must-revalidate",
-  //         },
-  //       ],
-  //     },
-  //   ];
-  // },
+  async headers() {
+    return [
+      {
+        source: "/:all*(css|js|svg|jpg|png|webp|gif|jpeg|avif)",
+        locale: false,
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=84600, must-revalidate",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
