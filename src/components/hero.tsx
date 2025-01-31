@@ -24,14 +24,14 @@ export const Hero = () => {
               Frontend Developer
             </div>
           </RevealFx>
-          <RevealFx delay={0.3} translateY={3}>
+          <RevealFx delay={0.2} translateY={3}>
             <div className="mt-4 flex space-x-4">
               {SOCIALS.map((social) => (
                 <SocialBadge key={social.name} {...social} />
               ))}
             </div>
           </RevealFx>
-          <RevealFx delay={0.4} translateY={4}>
+          <RevealFx delay={0.2} translateY={4}>
             <p className="mt-6 text-lg">
               Every problem has a code, and I love finding the right one! With a
               passion for crafting seamless user experiences, I blend clean code
@@ -39,7 +39,7 @@ export const Hero = () => {
               make every line count together!
             </p>
           </RevealFx>
-          <RevealFx delay={0.5} translateY={5}>
+          <RevealFx delay={0.2} translateY={5}>
             <div className="mt-4">
               <Link
                 href="https://drive.google.com/file/d/1ZB09Na1bKzUuoj-EfFgBFueu8ypiwRbI/view?usp=sharing"

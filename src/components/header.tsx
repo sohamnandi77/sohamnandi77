@@ -10,7 +10,7 @@ export const Header = () => {
   const hash = useHash();
 
   return (
-    <nav className="fixed bottom-16 z-30 flex w-screen justify-center">
+    <nav className="fixed bottom-16 z-30 flex w-screen justify-center transition-all duration-500">
       <div className="flex transform-none gap-3 rounded-full border-2 border-[#3f3f3f] bg-black bg-opacity-70 px-7 py-3 backdrop-blur-lg">
         {NAV_ITEMS.map((item) => (
           <Fragment key={item.id}>
