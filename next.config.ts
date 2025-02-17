@@ -11,10 +11,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "demo.magic-portfolio.com",
-      },
-      {
-        protocol: "https",
         hostname: "*.sohamnandi.com",
       },
     ],

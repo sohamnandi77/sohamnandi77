@@ -1,0 +1,107 @@
+import { SITE } from "@/config";
+import type { Metadata } from "next";
+
+export const METADATA: Metadata = {
+  title: SITE.title,
+  description: SITE.description,
+  applicationName: SITE.title,
+  verification: {
+    google: "D1zHTlGIyTf2zq6f5tfN5vRDmhOU5Cfaj-3FMz0etAo",
+    me: "sohamnandi",
+    other: {
+      me: [SITE.email, SITE.image],
+    },
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@_soham77",
+    creator: "@_soham77",
+    creatorId: "_soham77",
+    description: SITE.description,
+    siteId: "sohamnandi",
+    title: SITE.title,
+    images: [
+      {
+        url: SITE.image,
+        alt: SITE.title,
+      },
+    ],
+  },
+  publisher: SITE.name,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    url: SITE.origin,
+    title: SITE.title,
+    description: SITE.description,
+    images: [
+      {
+        url: SITE.image,
+        alt: SITE.title,
+      },
+    ],
+    siteName: SITE.title,
+    countryName: "India",
+    locale: "en_US",
+    alternateLocale: ["en_IN", "en_GB"],
+    determiner: "auto",
+    emails: [SITE.email],
+  },
+  metadataBase: new URL(SITE.origin),
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: SITE.title,
+    startupImage: [SITE.image],
+  },
+  authors: [
+    {
+      name: "Soham Nandi",
+      url: SITE.origin,
+    },
+  ],
+  category: "Portfolio",
+  creator: "Soham Nandi",
+  formatDetection: {
+    address: true,
+    email: true,
+    date: true,
+    telephone: true,
+    url: true,
+  },
+  classification: "Portfolio",
+  keywords: [
+    "100 days of code",
+    "Frontend Developer",
+    "Fullstack Developer",
+    "Portfolio",
+    "React Developer",
+    "React Developer",
+    "Soham Nandi",
+    "fullstack portfolio",
+    "portfolio of Soham Nandi",
+    "portfolio website",
+    "responsive web design",
+    "soham nandi india",
+    "soham nandi instagram",
+    "soham nandi linkedin",
+    "soham nandi portfolio website",
+    "soham nandi website",
+    "soham nandi work",
+    "soham",
+    "sohamnandi",
+    "ui design portfolio",
+    "ui design",
+    "who is soham nandi",
+  ],
+};
