@@ -9,10 +9,10 @@ import { SocialBadge } from "./social-badge";
 
 export const Hero = () => {
   return (
-    <section id="home" className="px-8 sm:px-16">
+    <section id="home" className="px-6 sm:px-16">
       <div className="grid content-center gap-8 lg:grid-cols-2">
         <div className="row-start-2 self-center lg:row-start-auto">
-          <RevealFx translateY={3}>
+          <RevealFx className="px-2" translateY={3}>
             <div className="space-x-2 text-xl">
               <span className="inline-block animate-wave">👋</span>
               <span className="text-md text-[#959595]">Hey,</span>
@@ -24,14 +24,14 @@ export const Hero = () => {
               Frontend Developer
             </div>
           </RevealFx>
-          <RevealFx delay={0.2} translateY={3}>
+          <RevealFx className="px-2" delay={0.2} translateY={3}>
             <div className="mt-4 flex space-x-4">
               {SOCIALS.map((social) => (
                 <SocialBadge key={social.name} {...social} />
               ))}
             </div>
           </RevealFx>
-          <RevealFx delay={0.2} translateY={3}>
+          <RevealFx className="px-2" delay={0.2} translateY={3}>
             <p className="mt-6 text-lg">
               <b>Every problem has a code, and I love finding the right one!</b>
               <br />
@@ -40,7 +40,7 @@ export const Hero = () => {
               products. Let’s make every line count together!
             </p>
           </RevealFx>
-          <RevealFx delay={0.2} translateY={3}>
+          <RevealFx className="px-2" delay={0.2} translateY={3}>
             <div className="mt-4">
               <Link
                 href="https://drive.google.com/file/d/1ZB09Na1bKzUuoj-EfFgBFueu8ypiwRbI/view?usp=sharing"
