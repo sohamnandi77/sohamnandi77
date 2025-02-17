@@ -2,6 +2,7 @@ export const SITE = {
   name: "Soham Nandi",
   email: "sohamnandi77@gmail.com",
   origin: "https://sohamnandi.com",
+  site: "https://sohamnandi.com/",
   image:
     "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738341898/profile/others/profile-image.jpg",
   basePathname: "/",

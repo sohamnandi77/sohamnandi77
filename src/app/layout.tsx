@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Script from "next/script";
@@ -21,6 +21,16 @@ const primary = Inter({
 });
 
 export const metadata: Metadata = METADATA;
+
+export const viewport: Viewport = {
+  colorScheme: "dark",
+  width: "device-width",
+  initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f6f3ee" },
+    { media: "(prefers-color-scheme: dark)", color: "#02182b" },
+  ],
+};
 
 const jsonLd = {
   "@context": "https://schema.org",

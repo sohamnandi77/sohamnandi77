@@ -41,7 +41,7 @@ export const METADATA: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: SITE.origin,
+    url: SITE.site,
     title: SITE.title,
     description: SITE.description,
     images: [
@@ -57,7 +57,7 @@ export const METADATA: Metadata = {
     determiner: "auto",
     emails: [SITE.email],
   },
-  metadataBase: new URL(SITE.origin),
+  metadataBase: new URL(SITE.site),
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
