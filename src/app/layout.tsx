@@ -1,18 +1,18 @@
 import { Background } from "@/components/background";
+import { WebVitals } from "@/components/web-vitals";
+import { SITE } from "@/config";
+import { SOCIALS } from "@/constants";
 import { cn } from "@/lib/utils";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
-import { WebVitals } from "@/components/web-vitals";
-import { SITE } from "@/config";
-import { SOCIALS } from "@/constants";
 import Head from "next/head";
 import Script from "next/script";
-import "./globals.css";
 import { METADATA } from "./metadata";
+
+import "./globals.css";
 
 const primary = Inter({
   variable: "--font-primary",

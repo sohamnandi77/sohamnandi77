@@ -8,13 +8,15 @@ export const Footer = () => {
         © {new Date().getFullYear()}{" "}
         <span className="text-[#84F6C3]">Soham Nandi</span>
       </div>
-      <div className="flex space-x-4">
+      <ul className="flex space-x-4">
         {SOCIALS.map(({ name, icon, href }) => (
-          <Link key={name} href={href} target="_blank">
-            {icon}
-          </Link>
+          <li key={name}>
+            <Link href={href} target="_blank">
+              {icon}
+            </Link>
+          </li>
         ))}
-      </div>
+      </ul>
     </footer>
   );
 };
