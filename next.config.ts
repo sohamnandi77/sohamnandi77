@@ -1,6 +1,14 @@
+import { SITE } from "@/config";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
+  trailingSlash: SITE.trailingSlash,
+  basePath: SITE.basePathname !== "/" ? SITE.basePathname : "",
+  experimental: {
+    scrollRestoration: true,
+    reactCompiler: true,
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
