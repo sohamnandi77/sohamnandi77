@@ -63,7 +63,7 @@ export default function RootLayout({
       className="dark scroll-smooth bg-black"
     >
       <Head>
-        {isProduction && <GoogleTagManager gtmId="GTM-MKCHGKD" />}
+        {isProduction && <GoogleTagManager gtmId="GTM-K3BH2KKR" />}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -77,7 +77,7 @@ export default function RootLayout({
       >
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-MKCHGKD"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K3BH2KKR"
             height="0"
             width="0"
             className="invisible hidden"
@@ -93,7 +93,7 @@ export default function RootLayout({
         <>
           <SpeedInsights debug={false} />
           <Analytics debug={false} />
-          <GoogleAnalytics gaId="G-S949ENLK4N" />
+          <GoogleAnalytics gaId="G-C4QRFW9V3P" />
           <Script id="ms_clarity" strategy="lazyOnload">
             {`(function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
