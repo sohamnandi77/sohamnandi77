@@ -49,11 +49,13 @@ export const WORK = [
     duration: "Jul 2021 - Present",
     designation: "Senior Software Engineer – Platform",
     responsibilities: [
-      "Developed a central component library for all teams, standardizing design patterns to improve code quality and collaboration.",
-      "Optimized the legacy React codebase, significantly enhancing page load times and user experience.",
-      "Built a secure OAuth 2.0 Identity Provider solution, improving system security and user authentication.",
-      "Introduced a microfrontends architecture for modularization and independent deployment of Ace and its modules.",
-      "Created and documented reusable UI components in Storybook, streamlining development cycles and increasing release frequency.",
+      "Orchestrated the successful launch of a product from inception to production, implementing key modules like incentives and leaderboards, resulting in a 25% increase in onboarding major clients such as Angel Broking and Poonawalla Fincorp, contributing to a 10L Monthly Recurring Revenue (MRR) and improved customer satisfaction.",
+      "Spearheaded the development of a central component library, standardizing design patterns and achieving a 20% reduction in development time, which enhanced cross-team collaboration and code quality.",
+      "Revamped the legacy React codebase, achieving page load times under 2 seconds and elevating Web Core Vitals to over 85, resulting in a 40% increase in Net Promoter Score (NPS) and enhanced user experience (UX).",
+      "Implemented AI-driven test case generation, enhancing testing speed by 40%. Advocated for the adoption of AI tools like GitHub Copilot, leading to a 20% increase in developer productivity and code quality.",
+      "Executed a microfrontend architecture, developing an internal tool to automate translation changes and enabling independent module deployment, which reduced deployment time by 25% and improved overall project efficiency and developer experience.",
+      "Achieved HIPAA compliance by strengthening security protocols and developing a secure OAuth 2.0 Identity Provider (IdP) solution, significantly enhancing system security and user authentication processes.",
+      "Created and documented reusable UI components in Storybook, optimizing development cycles and increasing release frequency from monthly to biweekly, contributing to a more agile development process.",
     ],
   },
   {
@@ -61,8 +63,8 @@ export const WORK = [
     duration: "Jan 2022 - Mar 2022",
     designation: "Part Time",
     responsibilities: [
-      "Built foundational components and templates for the Pranam Project, streamlining development workflows and ensuring project consistency.",
-      "Improved component accessibility by ensuring compliance with WCAG standards, enhancing usability and inclusivity for all users.",
+      "Developed foundational components and an initial suite of templates for the Pranam Project, streamlining development workflows and ensuring consistency across projects, reducing setup time by 15%.",
+      "Enhanced component accessibility by ensuring compliance with WCAG standards, significantly improving usability and inclusivity for all users, resulting in a 20% increase in accessibility audit scores",
     ],
   },
 ];
