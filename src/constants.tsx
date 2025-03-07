@@ -230,12 +230,12 @@ export const SKILLS = [
         height: 64,
         width: 64,
       },
-      {
-        name: "Kubernetes",
-        url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738320270/profile/skills/kubernetes.png",
-        height: 64,
-        width: 64,
-      },
+      // {
+      //   name: "Kubernetes",
+      //   url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738320270/profile/skills/kubernetes.png",
+      //   height: 64,
+      //   width: 64,
+      // },
     ],
   },
 ];
