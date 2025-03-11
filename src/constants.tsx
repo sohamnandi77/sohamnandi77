@@ -98,12 +98,12 @@ export const SKILLS = [
         height: 64,
         width: 64,
       },
-      {
-        name: "SASS",
-        url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738320738/profile/skills/scss.png",
-        height: 64,
-        width: 64,
-      },
+      // {
+      //   name: "SASS",
+      //   url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738320738/profile/skills/scss.png",
+      //   height: 64,
+      //   width: 64,
+      // },
       {
         name: "SQL",
         url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738323522/profile/skills/postgres.png",
