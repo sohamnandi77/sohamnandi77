@@ -265,14 +265,15 @@ export const PROJECTS = [
   },
   {
     id: "3",
-    title: "Art Board",
-    tags: ["NextJS", "Prisma", "Liveblocks"],
+    title: "Storybook",
+    tags: ["Storybook", "React Aria Components", "Tailwind"],
     description:
-      "Art Board is a real-time collaborative design tool featuring live updates, shareable rooms, and advanced editing tools.",
+      "A customizable component library documented in Storybook for interactive testing and browsing of your design system.",
     imageUrl:
-      "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738169827/profile/projects/art-board.png",
-    githubUrl: "https://github.com/sohamnandi77/art-board",
-    liveDemoUrl: "https://art-board.sohamnandi.com/",
+      "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738163245/profile/projects/storybook.png",
+    githubUrl:
+      "https://github.com/sohamnandi77/projects/tree/main/apps/storybook",
+    liveDemoUrl: "https://storybook.sohamnandi.com/",
   },
   {
     id: "4",
@@ -309,15 +310,14 @@ export const PROJECTS = [
   },
   {
     id: "7",
-    title: "Storybook",
-    tags: ["Storybook", "React Aria Components", "Tailwind"],
+    title: "Art Board",
+    tags: ["NextJS", "Prisma", "Liveblocks"],
     description:
-      "A customizable component library documented in Storybook for interactive testing and browsing of your design system.",
+      "Art Board is a real-time collaborative design tool featuring live updates, shareable rooms, and advanced editing tools.",
     imageUrl:
-      "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738163245/profile/projects/storybook.png",
-    githubUrl:
-      "https://github.com/sohamnandi77/projects/tree/main/apps/storybook",
-    liveDemoUrl: "https://storybook.sohamnandi.com/",
+      "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738169827/profile/projects/art-board.png",
+    githubUrl: "https://github.com/sohamnandi77/art-board",
+    liveDemoUrl: "https://art-board.sohamnandi.com/",
   },
   {
     id: "8",
