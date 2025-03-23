@@ -50,8 +50,8 @@ export const WORK = [
     duration: "April 2024 - Present",
     designation: "Senior Software Engineer",
     responsibilities: [
-      "Developed a central component library, standardizing design patterns across projects, which slashed development time by 30%, boosted cross-team collaboration by enabling 150+ developers to reuse components seamlessly, and elevated code quality.",
-      "Revamped the legacy React codebase, achieving page load times under 2 seconds and elevating Web Core Vitals to over 85, resulting in a 40% increase in Net Promoter Score (NPS).",
+      "Led the development of a central component library, standardizing design patterns across projects, which slashed development time by 20%, boosted cross-team collaboration by enabling 150+ developers to reuse components seamlessly, and elevated code quality.",
+      "Revamped the legacy React codebase, achieving page load times under 2 seconds and elevating Web Core Vitals to over 85, resulting in a 30% increase in Net Promoter Score (NPS) and enhanced user experience (UX).",
       "Implemented AI-driven test case generation, enhancing testing speed by 40% and advocating for the adoption of AI tools like GitHub Copilot.",
     ],
   },
@@ -60,9 +60,9 @@ export const WORK = [
     duration: "April 2023 - March 2024",
     designation: "Software Engineer",
     responsibilities: [
-      "Successfully developed a project from scratch to production, implementing key modules like incentives and leaderboards, resulting in a 25% increase in onboarding major clients such as Angel Broking and Poonawalla Fincorp, contributing to a 10L Monthly Recurring Revenue (MRR) and improved customer satisfaction.",
-      "Achieved HIPAA compliance by developing a secure OAuth 2.0 Identity Provider (IdP) solution, significantly enhancing system security and user authentication processes.",
-      "Implemented a microfrontend architecture, reducing deployment time by 25% and improving overall project efficiency and developer experience.",
+      "Successfully developed a project from scratch to production, implementing key modules like incentives and leaderboards, resulting in a 25% increase in onboarding major clients and improved customer satisfaction.",
+      "Implemented a microfrontend solution that allowed standalone module deployments, reducing deployment time by 36% , streamlining workflows and ensuring faster releases with zero downtime reported across 10+ production cycles.",
+      "Achieved HIPAA compliance by strengthening security protocols and developing a secure OAuth 2.0 Identity Provider (IdP) solution, significantly enhancing system security and user authentication processes.",
     ],
   },
   {
