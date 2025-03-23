@@ -45,26 +45,43 @@ export const SOCIALS = [
 
 export const WORK = [
   {
+    id: "1",
     company: "Leadsquared",
-    duration: "Jul 2021 - Present",
-    designation: "Senior Software Engineer – Platform",
+    duration: "April 2024 - Present",
+    designation: "Senior Software Engineer",
     responsibilities: [
-      "Orchestrated the successful launch of a product from inception to production, implementing key modules like incentives and leaderboards, resulting in a 25% increase in onboarding major clients such as Angel Broking and Poonawalla Fincorp, contributing to a 10L Monthly Recurring Revenue (MRR) and improved customer satisfaction.",
-      "Spearheaded the development of a central component library, standardizing design patterns and achieving a 20% reduction in development time, which enhanced cross-team collaboration and code quality.",
-      "Revamped the legacy React codebase, achieving page load times under 2 seconds and elevating Web Core Vitals to over 85, resulting in a 40% increase in Net Promoter Score (NPS) and enhanced user experience (UX).",
-      "Implemented AI-driven test case generation, enhancing testing speed by 40%. Advocated for the adoption of AI tools like GitHub Copilot, leading to a 20% increase in developer productivity and code quality.",
-      "Executed a microfrontend architecture, developing an internal tool to automate translation changes and enabling independent module deployment, which reduced deployment time by 25% and improved overall project efficiency and developer experience.",
-      "Achieved HIPAA compliance by strengthening security protocols and developing a secure OAuth 2.0 Identity Provider (IdP) solution, significantly enhancing system security and user authentication processes.",
-      "Created and documented reusable UI components in Storybook, optimizing development cycles and increasing release frequency from monthly to biweekly, contributing to a more agile development process.",
+      "Developed a central component library, standardizing design patterns across projects, which slashed development time by 30%, boosted cross-team collaboration by enabling 150+ developers to reuse components seamlessly, and elevated code quality.",
+      "Revamped the legacy React codebase, achieving page load times under 2 seconds and elevating Web Core Vitals to over 85, resulting in a 40% increase in Net Promoter Score (NPS).",
+      "Implemented AI-driven test case generation, enhancing testing speed by 40% and advocating for the adoption of AI tools like GitHub Copilot.",
     ],
   },
   {
-    company: "Adani Digital Labs",
-    duration: "Jan 2022 - Mar 2022",
-    designation: "Part Time",
+    id: "2",
+    duration: "April 2023 - March 2024",
+    designation: "Software Engineer",
     responsibilities: [
-      "Developed foundational components and an initial suite of templates for the Pranam Project, streamlining development workflows and ensuring consistency across projects, reducing setup time by 15%.",
-      "Enhanced component accessibility by ensuring compliance with WCAG standards, significantly improving usability and inclusivity for all users, resulting in a 20% increase in accessibility audit scores",
+      "Successfully developed a project from scratch to production, implementing key modules like incentives and leaderboards, resulting in a 25% increase in onboarding major clients such as Angel Broking and Poonawalla Fincorp, contributing to a 10L Monthly Recurring Revenue (MRR) and improved customer satisfaction.",
+      "Achieved HIPAA compliance by developing a secure OAuth 2.0 Identity Provider (IdP) solution, significantly enhancing system security and user authentication processes.",
+      "Implemented a microfrontend architecture, reducing deployment time by 25% and improving overall project efficiency and developer experience.",
+    ],
+  },
+  {
+    id: "3",
+    duration: "July 2022 - March 2023",
+    designation: "Associate Software Engineer",
+    responsibilities: [
+      "Developed internal tools to automate localization files, improving developer experience and introducing new design patterns.",
+      "Implemented multi-theme, RTL, and accessibility support in Ace to enhance user experience.",
+      "Built complex and customized incentive solutions in Ace to drive business growth.",
+    ],
+  },
+  {
+    id: "4",
+    duration: "July 2021 - June 2022",
+    designation: "Software Engineer - Intern",
+    responsibilities: [
+      "Created and documented reusable UI components in Storybook, optimizing development cycles and increasing release frequency from monthly to biweekly, contributing to a more agile development process.",
+      "Recognized with 'Spotlight of the Month' in the Ace Team for impactful contributions to incentive and leaderboard workflows.",
     ],
   },
 ];
@@ -98,12 +115,12 @@ export const SKILLS = [
         height: 64,
         width: 64,
       },
-      // {
-      //   name: "SASS",
-      //   url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738320738/profile/skills/scss.png",
-      //   height: 64,
-      //   width: 64,
-      // },
+      {
+        name: "SASS",
+        url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738321756/profile/skills/sass.png",
+        height: 64,
+        width: 64,
+      },
       {
         name: "SQL",
         url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738323522/profile/skills/postgres.png",
@@ -230,12 +247,6 @@ export const SKILLS = [
         height: 64,
         width: 64,
       },
-      // {
-      //   name: "Kubernetes",
-      //   url: "https://res.cloudinary.com/dz7vrcmfw/image/upload/v1738320270/profile/skills/kubernetes.png",
-      //   height: 64,
-      //   width: 64,
-      // },
     ],
   },
 ];

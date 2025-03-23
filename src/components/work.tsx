@@ -11,7 +11,7 @@ export const Work = () => {
         </RevealFx>
         <div className="relative ms-2 mt-9 space-y-12 border-s-2 border-solid border-[#3F3F3F] ps-9">
           {WORK.map((data) => {
-            return <WorkCard key={data.company} {...data} />;
+            return <WorkCard key={data.id} {...data} />;
           })}
         </div>
       </div>
