@@ -4,7 +4,7 @@
 
 # 💫 About Me:
 
-- 🔭 I’m currently as Senior Software Engineer
+- 🔭 I’m currently as Software Engineer at GoDaddy
 - 🌱 I’m currently learning about monorepo and microservices architecture.
 - ⚡ Fun fact: Life is a dynamic array.
 
